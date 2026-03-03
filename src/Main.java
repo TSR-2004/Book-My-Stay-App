@@ -1,15 +1,29 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        /**
+         * Book My Stay App
+         * Version: 1.0
+         * Description: Entry point of the Hotel Booking Management System.
+         * This program demonstrates how a Java application starts execution
+         * and displays a welcome message to the user.
+         *
+         * @author BookMyStay Team
+         * @version 1.0
+         */
+
+        String appName = "Book My Stay - Hotel Booking Management System";
+        String version = "Version 1.0";
+        String welcomeMessage = "Welcome to the Book My Stay Application!";
+
+        System.out.println("===============================================");
+        System.out.println(appName);
+        System.out.println(version);
+        System.out.println("===============================================");
+        System.out.println(welcomeMessage);
+        System.out.println("Application started successfully.");
+        System.out.println("Thank you for using Book My Stay.");
+        System.out.println("===============================================");
+
     }
 }
